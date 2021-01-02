@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AndroidManifest.xml을 읽어보자."
+title: "Layout을 Activity에 Import하는 방법"
 author: "gaaraam"
 tags: Android
 ---
