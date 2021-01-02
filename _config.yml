@@ -1,5 +1,5 @@
 # Site settings
-title:          gaaraam.log
+title:          fynnlog
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        ""
 url:            "https://gaaraam.github.io"
@@ -9,7 +9,7 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
+  name:         gaaraam
   url:          https://chester.how
   email:        chesterhow@gmail.com
 
