@@ -1,2 +1,2 @@
-# Leegaramm.github.io
+# gaaraam.github.io
 블로그를 만들자
