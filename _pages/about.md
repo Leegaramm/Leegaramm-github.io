@@ -43,6 +43,7 @@ permalink: /about/
 - **2011** Konkuk University, Seoul
 - **2016** LikeLion in Konkuk Univ. 4th Member
 - **2016** SK SUNNY Creative School Teacher
+- **2020** TheJoeun Computer Academy Java/Android Developer Course
 
 
 
