@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤓"
+title: "🧑🏻‍💻"
 author: "gaaraam"
 permalink: /about/
 ---
