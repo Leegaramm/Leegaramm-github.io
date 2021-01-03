@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 # Lee Garam
-- [github](github.io/gaaraam)
+- [github](github.com/gaaraam)
 - [linkedin](https://www.linkedin.com/in/garam-lee-664043130/)
 
 # Featured Skills
