@@ -5,7 +5,7 @@ author: "gaaraam"
 tags: Android
 ---
 
-- Empty activity를 생성하면, 그에 맞는 레이아웃(xml) 파일도 생성된다. 그 xml파일은 어디 있느냐?
+- Empty activity를 생성하면, 그에 맞는 레이아웃(xml) 파일도 생성된다. 그 xml파일은 어디 있느냐??
 
 ```kotlin
 class Listner : AppCompatActivity() {
