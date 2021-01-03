@@ -12,7 +12,7 @@ permalink: /about/
 # 📱 Featured Skills
 - Android, Java, Kotlin
 
-# 🏃🏻‍♂️ Education and Experience
+# 🎓 Education and 👣 Experience
 - **2008** Jungsan High School, Goyang
 - **2011** Konkuk University, Seoul
 - **2016** LikeLion in Konkuk Univ. 4th Member
