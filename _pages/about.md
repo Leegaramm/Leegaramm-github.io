@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 # 👋 Hello, I'm gaaraam
-- [github](github.com/gaaraam)
+- [github](https://www.github.com/gaaraam)
 - [linkedin](https://www.linkedin.com/in/garam-lee-664043130/)
 
 # 📱 Featured Skills
