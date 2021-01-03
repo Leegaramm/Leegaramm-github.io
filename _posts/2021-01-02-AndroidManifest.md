@@ -4,6 +4,11 @@ title: "AndroidManifest.xml을 읽어보자."
 author: "gaaraam"
 tags: Android
 ---
+* 모든 앱 프로젝트에는 `Android Manifest.xml`파일이 있어야 한다.
+* 매니페스트 파일은 Android 빌드 도구, Android 운영체제 및 Google Play에 앱에 관한 필수 정보를 설명한다.
+* 매니페스트 파일은 다른 여러 가지도 설명하지만 특히 다음과 같은 내용을 선언해야 합니다.
+* 참고 : https://developer.android.com/guide/topics/manifest/manifest-intro
+<br>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
