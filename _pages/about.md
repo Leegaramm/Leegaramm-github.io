@@ -39,11 +39,12 @@ permalink: /about/
 - `MVP`
 
 # 🎓 Education and 👣 Experience
-- **2008** Jungsan High School, Goyang
-- **2011** Konkuk University, Seoul
-- **2016** LikeLion in Konkuk Univ. 4th Member
-- **2016** SK SUNNY Creative School Teacher
-- **2020** TheJoeun Computer Academy Java/Android Developer Course
+- **2008** Jungsan High School, Goyang 졸업
+- **2011** Konkuk University, Seoul 졸업
+- **2016** Samsung Convergence Software Course 참여 
+- **2016** LikeLion in Konkuk Univ. 4th Member 수료
+- **2016** SK SUNNY Creative School Teacher 수료
+- **2020** TheJoeun Computer Academy Java/Android Developer Course 진행중
 
 
 
