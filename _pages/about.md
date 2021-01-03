@@ -39,8 +39,8 @@ permalink: /about/
 - `MVP`
 
 # 🎓 Education and 👣 Experience
-- **2008** Jungsan High School, Goyang 졸업
-- **2011** Konkuk University, Seoul 졸업
+- **2008** Jungsan High School, Goyang (**2011** 졸업)
+- **2011** Konkuk University, Seoul (**2018** 졸업)
 - **2016** Samsung Convergence Software Course 참여
 - **2016** LikeLion in Konkuk Univ. 4th Member 수료
 - **2016** SK SUNNY Creative School Teacher 수료
