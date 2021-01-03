@@ -5,9 +5,18 @@ author: "gaaraam"
 permalink: /about/
 ---
 
-# Hi there👋
+# Lee Garam
+- [github](github.io/gaaraam)
+- [linkedin](https://www.linkedin.com/in/garam-lee-664043130/)
 
-Welcome to my page!
+# Featured Skills
+- Android, Java, Kotlin
 
-I'm Garam Lee who is interested in Android study from 🇰🇷South Korea.
+# Education and Experience
+- **2008** Goyang Jungsan High School
+- **2011** Konkuk University
+- **2016** LikeLion in Konkuk Univ. 4th Member
+- **2016** SK SUNNY Creative School Teacher
+
+
 
