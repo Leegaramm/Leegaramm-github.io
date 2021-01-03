@@ -33,7 +33,7 @@ permalink: /about/
 
 ### Kotlin
 
-### Architect Pattern 
+### Architecture Pattern 
 - `MVC` 
 - `MVVM`
 - `MVP`
