@@ -10,6 +10,7 @@ permalink: /about/
 - [linkedin](https://www.linkedin.com/in/garam-lee-664043130/)
 
 # 📱 Featured Skills
+
 ### Android 
 - `AAC`
 - `Jetpack`
@@ -24,11 +25,14 @@ permalink: /about/
 - `volley` 
 - `Firebase`
 - `OKHttp`
+
 ### Java 
 - `rxJava`
 - `JUnit` 
 - `Generic` `Serializable`
+
 ### Kotlin
+
 ### Architect Pattern 
 - `MVC` 
 - `MVVM`
