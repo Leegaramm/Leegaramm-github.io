@@ -1,3 +1,10 @@
+---
+layout: post
+title: "git 나름대로 정리"
+author: "gaaraam"
+tags: Git
+---
+
 (더 추가예정)
 
 # git 
