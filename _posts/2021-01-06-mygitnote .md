@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git 나름대로 정리"
+title: ":fork_and_knife: git 나름대로 정리"
 author: "gaaraam"
 tags: Git
 ---
