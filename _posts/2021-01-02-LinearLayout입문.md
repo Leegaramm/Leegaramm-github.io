@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LinearLayout 입문"
+title: ":tennis: LinearLayout 입문"
 author: "gaaraam"
 tags: Android
 ---
