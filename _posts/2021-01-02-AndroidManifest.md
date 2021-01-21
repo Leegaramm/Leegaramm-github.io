@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[안드로이드] AndroidManifest.xml을 읽어보자."
+title: ":tennis: AndroidManifest.xml을 읽어보자."
 author: "gaaraam"
 tags: Android
 ---
