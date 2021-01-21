@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "findViewById"
+title: ":tennis: findViewById"
 author: "gaaraam"
 tags: Android
 ---
