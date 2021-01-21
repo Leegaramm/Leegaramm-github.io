@@ -11,6 +11,13 @@
 
 ## Kotlin
 
-## Programming
+## Algorithm
+
+## Git
+- [git 나름대로 정리](https://gaaraam.github.io/2021-01-06/mygitnote)
+
+## etc
+- [안드로이드 개발자 자격요건, 우대사항](https://gaaraam.github.io/2021-01-06/requirement)
+
 
 
