@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[안드로이드] 사용되지 않는 PreferenceManager와 kotlin android extensions"
+title: "[안드로이드] PreferenceManager, kotlin android extensions"
 author: "gaaraam"
 tags: Android
 ---
