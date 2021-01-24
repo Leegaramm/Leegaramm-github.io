@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[안드로이드] PreferenceManager, kotlin android extensions"
+title: "[안드로이드] Preference Manager, kotlin android extensions"
 author: "gaaraam"
 tags: Android
 ---
