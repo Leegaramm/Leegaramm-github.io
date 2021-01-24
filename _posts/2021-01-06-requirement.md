@@ -2,7 +2,7 @@
 layout: post
 title: "[취업] 안드로이드 개발자 자격요건, 우대사항"
 author: "gaaraam"
-tags: etc
+tags: Etc
 ---
 
 ## 당근마켓
