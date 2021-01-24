@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "[깃] git 나름대로 정리"
-author: "gaaraam"
 tags: Git
 ---
 
@@ -18,34 +17,33 @@ tags: Git
 * 두번째 나무인 인덱스는 준비영역의 역할을 하며
 * 마지막 나무인 HEAF는 최종 확정본(commit)을 나타낸다.
   
-# commit
+## commit
 
 * 커밋이란? **변경 사항 덩어리**를 말한다. 확정본이라고도 할 수 있다.
   
-  ```
+ ```
   git commit -m "fix bug"
-  ```
+ ```
 
 * 커밋은 꾸준히 쌓인다. 줄줄이 기차처럼 연결되어 있다.
 * 각각 의미있는 변동사항을 커밋으로 만들어 저장한다.
 
-# push
+## push
 
 * 커밋을 공동 원격 저장소에 올리고 싶다면! 푸시를 하세요
 * 다른 개발자들이 내 코드를 볼 수 있습니다.
 
 ```
-git push origin master
-
+  git push origin master
 ```
 
 * 다른 브랜치를 원하면 master가 아닌 다른 이름을 적어도 무방하다.
 * github에 push한다면, 원격 서버의 주소를 git에게 알려줄 필요가 있음
 
 ```
-git remote add origin <원격 서버 주소>
+  git remote add origin <원격 서버 주소>
 ```
-# pull
+## pull
 
 * 다른 사람이 개발한 코드를 내 컴퓨터에 받아오고 싶다면! 풀을 하세요
 * 로컬저장소를 원격 저장소에 맞춰 갱신하는 것.
@@ -54,7 +52,7 @@ git remote add origin <원격 서버 주소>
   git pull
 ```
 
-# branch
+## branch
 
 * 한 저장소에서 다른 개발자랑 같이 작업하고 싶다면! 브랜치를 만드세요
 * 브랜치는 한줄로 쌓던 커밋을 n줄로 쌓게 해주는 것.
@@ -65,7 +63,7 @@ git remote add origin <원격 서버 주소>
   git branch branch-name
 ```
 
-# merge
+## merge
 
 * 브랜치에서 작업이 끝났어요. 이제 코드를 합치고 싶다! 병합을 하세요
 * 브랜치와 브랜치를 합치는 것이 병합입니다.
@@ -74,19 +72,19 @@ git remote add origin <원격 서버 주소>
     git merge branch-name
 ```
 
-# pull request
+## pull request
 
 * 병합해도 되겠습니까? 병합 요청 편지
 * 코드 변경 사항에 댓글을 달 수 있다.
 * 피드백을 받고 코드를 수정해서 approve를 받으면 github에서 merge 할 수 있다!
 
-# 여러가지 merge
+## 여러가지 merge
 
 * merge commit
 * fast-foward
 * conflict
 
-# 가지치기
+## 가지치기
 
 * example이라는 branch를 만들고 싶다면
   ```
