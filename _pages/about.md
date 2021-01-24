@@ -5,11 +5,11 @@ author: "gaaraam"
 permalink: /about/
 ---
 
-# 👋 Hello, I'm gaaraam
+## 👋 Hello, I'm gaaraam
 - [github](https://www.github.com/gaaraam)
 - [linkedin](https://www.linkedin.com/in/garam-lee-664043130/)
 
-# 📱 Featured Skills
+## 📱 Featured Skills
 
 ### Android 
 - `AAC`
@@ -38,7 +38,7 @@ permalink: /about/
 - `MVVM`
 - `MVP`
 
-# 🎓 Education and 👣 Experience
+## 🎓 Education and 👣 Experience
 - **2008** Jungsan High School, Goyang (**2011** 졸업)
 - **2011** Konkuk University, Seoul (**2018** 졸업)
 - **2016** Samsung Convergence Software Course 참여
