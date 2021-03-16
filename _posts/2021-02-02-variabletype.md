@@ -47,10 +47,12 @@ let foo = "not shy";
 ```javascript
 let dallaDallaLyrics = "you better check yourself, \"말리지마!\"";
 ```
+
 ## var
 변수를 선언하는 또 하나의 방법은 var라는 키워드를 쓰는건데, 모던 자바스크립트에서는 사용하지 않기 때문에 그냥 잊어버리는 것이 낫다.
 
 선언되었는지를 check하는 `let`이나 `const`와는 다르게 이전에 선언된 변수가 존재하고 있더라도 덮어써버리고 오류를 발생시키지 않기 때문에, `var`를 통한 선언은 상대적으로 안전하지 못한 방법일 수 있다.
+
 ## null과 undefined
 ```javascript
 const friend = null; // 값이 없다! 라고 선언해주는 것
