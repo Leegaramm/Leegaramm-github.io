@@ -19,7 +19,7 @@ tags: HTML
 * `<section id="hello">`가 있고, 한 페이지 안에서 섹션으로 이동하고 싶다면, `<a href = "#hello">`를 사용하면 가능하다.
 * `target="_blank"`를 쓰면 새 탭을 여는 방식으로 새 페이지를 열 수 있다.
 
-```html
+```
 <img src = "#" alt = "" />
 ```
 * `src`는 source의 약자이고 (이미지의 링크)
@@ -38,12 +38,14 @@ tags: HTML
 * li(list item)
 * ul의 자식요소는 필수적으로 `<li>`만 가능하다.
 ## dl(discription list)
+
 ```
 <dl>
   <dt>학습</dt> <!-- discription term -->
   <dd>배워서 익히는 일</dd> <!-- discription data -->
 </dl>
 ```
+
 * dl의 자식요소로는 오직 `div`, `dt`, `dd`만 가능하다.
 ## form
 사용자로부터 인풋을 받기 위한 태그
