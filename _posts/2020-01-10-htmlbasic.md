@@ -24,6 +24,7 @@ tags: HTML
 ```
 * `src`는 source의 약자이고 (이미지의 링크)
 * `alt`는 alternative text의 약자 (대체 텍스트, 이미지에 대한 설명 텍스트)
+
 ## ul과 ol
 
 ```
@@ -37,6 +38,7 @@ tags: HTML
 * ul(unordered list)
 * li(list item)
 * ul의 자식요소는 필수적으로 `<li>`만 가능하다.
+
 ## dl(discription list)
 
 ```
@@ -47,32 +49,42 @@ tags: HTML
 ```
 
 * dl의 자식요소로는 오직 `div`, `dt`, `dd`만 가능하다.
+
 ## form
+
 사용자로부터 인풋을 받기 위한 태그
+
 ```
 <form action="" method=""></form>
 ```
+
 * `action`은 API주소 : 이걸 처리해 줄 API 서버 쪽 친구에게 접근이 가능한 URL이다.
 * `method`는 GET과 POST.
 ## input
+
 ```
 <input type="text"/>
 ```
+
 ```
 <input type="text" placeholder="이름을 입력하세요." 
     maxlength="13" minlength="5" value="finn" />  
 ```
+
 * `placeholder`는 힌트
 * `maxlength` 를 넘지 않고, `minlength`보다 많은 글자를 입력해야 한다.
 * `value`는 초기값
 ### 특별한 input type
 #### file
+
 ```
 <input type = "file" accept= ".png,.jpg"/>
 ```
+
 * 파일을 첨부하는 input을 만들고 싶을 때 사용.
 * 확장자를 제한하고 싶을 때는 `accept` 속성에 value로 제한할 확장자를 추가한다.
 #### radio
+
 ```
 <form action="#" method="GET">
   <input type="radio" name="subscription" id="subscribed" value="subscribed"/>
@@ -84,6 +96,7 @@ tags: HTML
   </button>
 </form>
 ```
+
 * 여러 개의 radiobutton이 있어도 체크값이 중복되지 않게 해야 한다.
 * (실제 radio버튼은 하나를 누르면 하나가 튕겨져 나온다.)
 * 여러 개의 radiobutton은 같은 name속성으로 묶인다.
@@ -96,6 +109,7 @@ tags: HTML
 ![](https://images.velog.io/images/star146913/post/36a6d5da-9556-40ce-a430-0d4d456c77dc/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2019.37.08.png)
 * 각각 다른 value 속성을 넘겨주는 것을 확인할 수가 있다.
 #### checkbox
+
 ```
 <form action="#" method="GET">
     <input type="checkbox" name="skills" value="html"/>
@@ -109,21 +123,25 @@ tags: HTML
     </button>
  </form>
 ```
+
 * 모든 체크박스에 체크가 되어 있는 상태에서 `submit` button을 누를 시에
 ![](https://images.velog.io/images/star146913/post/a2a1ba42-8f9a-4f65-8a7c-0773b175fe74/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-15%2007.27.11.png)
 * `name=value`의 형태
 
 ## label
+
 ```
 <label for = "user-name">이름</label>
 <input type = "text" id = "user-name"/>
 ```
+
 * input의 명칭을 정해준다.
 * 다음과 같이 표시된다.
 
 ![](https://images.velog.io/images/star146913/post/febab38b-21b7-436b-a4db-a5fe5d5e2554/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2018.35.42.png)
 
 ## select
+
 ```
 <label for="skill">skill</label>
 <select name="skill" id="skill">
@@ -132,14 +150,17 @@ tags: HTML
   <option value="js">JS</option>
 </select>
 ```
+
 * select에서 `name`은 `option`을 위한 것, `id`는 `label`을 위한 것.
 
 ## textarea
+
 ```
 <textarea cols="10" rows="10"></textarea>
 ```
 
 ## button
+
 ```
 <button type="button">버튼</button>
 <button type="submit">제출</button>
@@ -147,6 +168,7 @@ tags: HTML
 ```
 
 ## table
+
 ```
 <table>
   <tr> <!-- 가로줄 만들거야 -->
@@ -155,7 +177,9 @@ tags: HTML
   </tr>
 </table>
 ```
+
 * 가로줄을 기준으로 생각한다. 행에 셀을 옆으로 쌓는다고 생각하자.
+
 ```
 <table>
     <thead>
@@ -182,6 +206,7 @@ tags: HTML
     </tbody>
 </table>
 ```
+
 * `lowspan`은 행 병합, `colspan`은 열 병합
 * 가로줄에 헤더가 있을 수 있고, 세로줄에 해더가 있을 수 있다. 그것을 좀 더 명시적으로 나타내주기 위해서, 가로줄에 대한 헤더는 `<th scope="col">`을, 세로줄에 대한 헤더는 `<th scope="row">`를 써준다.
 
