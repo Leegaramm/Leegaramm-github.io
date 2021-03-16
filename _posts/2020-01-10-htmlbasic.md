@@ -8,10 +8,10 @@ tags: HTML
 * **시맨틱 마크다운**
 * 개발자도구 단축키는 손에 익히도록 하자. -> `option` + `command` + `I`
 * `command` + `shift` + `p` -> vscode 스팟라이트
-```html
+```
 <strong></strong> <!-- 강조 -->
 ```
-```html
+```
 <br/> <!-- break의 약자. 줄바꿈. -->
 ```
 * `href`는 hypertext reference의 줄임말이다.
@@ -25,19 +25,20 @@ tags: HTML
 * `src`는 source의 약자이고 (이미지의 링크)
 * `alt`는 alternative text의 약자 (대체 텍스트, 이미지에 대한 설명 텍스트)
 ## ul과 ol
-```html
-<ul>
-  <li>항목1</li>
-  <li>항목2</li>
-  <li>항목3</li>
-</ul>
+
+```
+  <ul>
+    <li>항목1</li>
+    <li>항목2</li>
+    <li>항목3</li>
+  </ul>
 ```
 * ol(ordered list)는 순서가 중요한 목록
 * ul(unordered list)
 * li(list item)
 * ul의 자식요소는 필수적으로 `<li>`만 가능하다.
 ## dl(discription list)
-```html
+```
 <dl>
   <dt>학습</dt> <!-- discription term -->
   <dd>배워서 익히는 일</dd> <!-- discription data -->
@@ -46,16 +47,16 @@ tags: HTML
 * dl의 자식요소로는 오직 `div`, `dt`, `dd`만 가능하다.
 ## form
 사용자로부터 인풋을 받기 위한 태그
-```html
+```
 <form action="" method=""></form>
 ```
 * `action`은 API주소 : 이걸 처리해 줄 API 서버 쪽 친구에게 접근이 가능한 URL이다.
 * `method`는 GET과 POST.
 ## input
-```html
+```
 <input type="text"/>
 ```
-```html
+```
 <input type="text" placeholder="이름을 입력하세요." 
     maxlength="13" minlength="5" value="finn" />  
 ```
@@ -64,13 +65,13 @@ tags: HTML
 * `value`는 초기값
 ### 특별한 input type
 #### file
-```html
+```
 <input type = "file" accept= ".png,.jpg"/>
 ```
 * 파일을 첨부하는 input을 만들고 싶을 때 사용.
 * 확장자를 제한하고 싶을 때는 `accept` 속성에 value로 제한할 확장자를 추가한다.
 #### radio
-```html
+```
 <form action="#" method="GET">
   <input type="radio" name="subscription" id="subscribed" value="subscribed"/>
   <label>구독중</label>
@@ -93,7 +94,7 @@ tags: HTML
 ![](https://images.velog.io/images/star146913/post/36a6d5da-9556-40ce-a430-0d4d456c77dc/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2019.37.08.png)
 * 각각 다른 value 속성을 넘겨주는 것을 확인할 수가 있다.
 #### checkbox
-```html
+```
 <form action="#" method="GET">
     <input type="checkbox" name="skills" value="html"/>
     <label for="html">html</label>
@@ -111,7 +112,7 @@ tags: HTML
 * `name=value`의 형태
 
 ## label
-```html
+```
 <label for = "user-name">이름</label>
 <input type = "text" id = "user-name"/>
 ```
@@ -121,7 +122,7 @@ tags: HTML
 ![](https://images.velog.io/images/star146913/post/febab38b-21b7-436b-a4db-a5fe5d5e2554/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2018.35.42.png)
 
 ## select
-```html
+```
 <label for="skill">skill</label>
 <select name="skill" id="skill">
   <option value="html">HTML</option>
@@ -132,19 +133,19 @@ tags: HTML
 * select에서 `name`은 `option`을 위한 것, `id`는 `label`을 위한 것.
 
 ## textarea
-```html
+```
 <textarea cols="10" rows="10"></textarea>
 ```
 
 ## button
-```html
+```
 <button type="button">버튼</button>
 <button type="submit">제출</button>
 <button type="reset">다시 쓰기</button>
 ```
 
 ## table
-```html
+```
 <table>
   <tr> <!-- 가로줄 만들거야 -->
     <th>테이블 헤더</th>
@@ -153,7 +154,7 @@ tags: HTML
 </table>
 ```
 * 가로줄을 기준으로 생각한다. 행에 셀을 옆으로 쌓는다고 생각하자.
-```html
+```
 <table>
     <thead>
       <tr>
