@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “[HTML] HTML 기초 "
+title: "[HTML] HTML 기초"
 tags: HTML
 ---
 
@@ -85,8 +85,12 @@ tags: HTML
 * (실제 radio버튼은 하나를 누르면 하나가 튕겨져 나온다.)
 * 여러 개의 radiobutton은 같은 name속성으로 묶인다.
 * value 속성은 무조건 필요하다.
+![](https://images.velog.io/images/star146913/post/17238381-5a02-49be-8f01-b595cfa543c7/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2019.34.48.png)
 * button을 누르면 GET방식으로 submit하게 되어 있다.
-* radiobutton이 구독에 체크되어 있는 
+* radiobutton이 구독에 체크되어 있으면
+![](https://images.velog.io/images/star146913/post/6afb7180-3c24-452c-86d5-5b121f43deda/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2019.35.04.png)
+* 미구독에 체크되어 있으면
+![](https://images.velog.io/images/star146913/post/36a6d5da-9556-40ce-a430-0d4d456c77dc/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2019.37.08.png)
 * 각각 다른 value 속성을 넘겨주는 것을 확인할 수가 있다.
 #### checkbox
 ```html
@@ -103,6 +107,7 @@ tags: HTML
  </form>
 ```
 * 모든 체크박스에 체크가 되어 있는 상태에서 `submit` button을 누를 시에
+![](https://images.velog.io/images/star146913/post/a2a1ba42-8f9a-4f65-8a7c-0773b175fe74/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-15%2007.27.11.png)
 * `name=value`의 형태
 
 ## label
@@ -111,7 +116,9 @@ tags: HTML
 <input type = "text" id = "user-name"/>
 ```
 * input의 명칭을 정해준다.
+* 다음과 같이 표시된다.
 
+![](https://images.velog.io/images/star146913/post/febab38b-21b7-436b-a4db-a5fe5d5e2554/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-09%2018.35.42.png)
 
 ## select
 ```html
@@ -174,3 +181,4 @@ tags: HTML
 ```
 * `lowspan`은 행 병합, `colspan`은 열 병합
 * 가로줄에 헤더가 있을 수 있고, 세로줄에 해더가 있을 수 있다. 그것을 좀 더 명시적으로 나타내주기 위해서, 가로줄에 대한 헤더는 `<th scope="col">`을, 세로줄에 대한 헤더는 `<th scope="row">`를 써준다.
+
