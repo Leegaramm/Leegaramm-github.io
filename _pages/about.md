@@ -11,33 +11,6 @@ permalink: /about/
 
 ## 📱 Featured Skills
 
-### Android 
-- `AAC`
-- `Jetpack`
-- `DataBinding`
-- `Dagger2` 
-- `Retrofit` 
-- `realm` 
-- `RxAndroid` 
-- `Glide` 
-- `Mockito`
-- `ConstraintLayout` 
-- `volley` 
-- `Firebase`
-- `OKHttp`
-
-### Java 
-- `rxJava`
-- `JUnit` 
-- `Generic` `Serializable`
-
-### Kotlin
-
-### Architecture Pattern 
-- `MVC` 
-- `MVVM`
-- `MVP`
-
 ## 🎓 Education and 👣 Experience
 - **2008** Jungsan High School, Goyang (**2011** 졸업)
 - **2011** Konkuk University, Seoul (**2018** 졸업)
