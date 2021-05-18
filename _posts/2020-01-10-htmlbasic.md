@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[HTML] HTML 기초"
-tags: HTML
+title: "Web: HTML 기초"
+tags: Web
 ---
 
 * *문서의 구조와 정보 위계가 명확하게 보이는 아름다운 html 코드를 작성하자.*
