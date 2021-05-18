@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Javascript] 변수와 자료형"
+title: "JS: 변수와 자료형"
 tags: Javascript
 ---
 
