@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[깃] git 나름대로 정리"
+title: "Git: 기초 정리"
 tags: Git
 ---
 
