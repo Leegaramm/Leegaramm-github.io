@@ -43,8 +43,8 @@ disqus:         disqus_S2D1PPlpJX
 remote_theme: chesterhow/tale
 
 
-permalink:    /:year-:month-:day/:title
-paginate:     5
+# permalink:    /:year-:month-:day/:title
+# paginate:     5
 
 plugins:
   - jekyll-paginate
